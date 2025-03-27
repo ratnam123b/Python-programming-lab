@@ -1,0 +1,12 @@
+import random
+n=random.randint(1,99)
+while True:
+  a=int(input("Guess the number:"))
+  if (a<n):
+    print("too low")
+  elif (a>n):
+    print("too high")
+  else:
+    print("Congratulations, you found the number")                                                       
+    break
+ 
